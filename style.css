@@ -1,4 +1,40 @@
-tr {
+h1 {
+    text-align:center;
+}
+table{
+    margin:10% auto;
+    border:2px solid black;
+}
+
+#htmlTable tr {
     background-color: aqua;
-    border: solid;
+    border:1px solid black;
+    
+}
+
+
+#cssTable tr {
+    background-color: pink;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    margin:0;
+    border: 2px solid black;
+    padding:20px 125px;
+}
+
+td.element {
+    margin:0;
+    border: 2px solid black;
+    padding:20px 50px;
+}
+
+td.selector {
+    margin:0;
+    border: 2px solid black;
+    padding:20px 50px;
 }
