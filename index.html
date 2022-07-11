@@ -15,6 +15,7 @@
 <body>
     <header>
         <h1>HTML & CSS Quick Refence Guide</h1>
+        <h5>Published by: Dani Smith</h5>
     </header>
 
     <main>
@@ -22,7 +23,7 @@
         <div class="tableContainer">
         <table id="htmlTable">
             <tr>
-                <th colspan="3"><h1>HTML Elements Reference</h1></th>
+                <th class="title" colspan="3"><h1>HTML Elements Reference</h1></th>
             </tr>
             <tr>
                 <th><h3>HTML Element</h3></th>
@@ -32,33 +33,75 @@
 
 <!-- HTML Element table data  -->
             <tr>
-                <td class="element"> <a href="#">element Name</a></td>
-                <td class="description"> element description</td>
-                <td class="example">element example</td>
+                <td class="element"> <a href="https://www.w3schools.com/tags/tag_head.asp">&lt;head&gt;</a></td>
+                <td class="description"> The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+
+                </td>
+                <td class="example">
+                    &lt;head&gt;
+                    <br>
+                        &lt;title&gt;Title of the document
+                        &lt;/title&gt;
+                    <br>
+                    &lt;/head&gt;
+                </td>
             </tr>
 
             <tr>
-                <td class="element"> <a href="#">element Name</a></td>
-                <td class="description"> element description</td>
-                <td class="example">element example</td>
+                <td class="element"> <a href="https://www.w3schools.com/tags/tag_body.asp">&lt;body&gt;</a></td>
+                <td class="description"> This element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc..</td>
+                <td class="example">
+                    &lt;body&gt;
+                    <br>
+                        &lt;h1&gt;Paragraph header
+                        &lt;/h1&gt;
+                        <br>
+                        &lt;p&gt;Some text content
+                        &lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                </td>
             </tr>
 
             <tr>
-                <td class="element"> <a href="#">element Name</a></td>
-                <td class="description"> element description</td>
-                <td class="example">element example</td>
+                <td class="element"> <a href="https://www.w3schools.com/tags/tag_div.asp">&lt;div&gt;</a></td>
+                <td class="description"> this element is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. This tag defines a division or a section in an HTML document.</td>
+                <td class="example">
+                    &lt;body&gt;
+                    <br>
+                        &lt;div&gt;
+                        <br>
+                            &lt;h1&gt;Paragraph header
+                            &lt;/h1&gt;
+                        <br>
+                            &lt;p&gt;Some text content
+                            &lt;/p&gt;
+                        <br>
+                        &lt;/div&gt;
+                    <br>
+                    &lt;/body&gt;
+                </td>
             </tr>
 
             <tr>
-                <td class="element"> <a href="#">element Name</a></td>
-                <td class="description"> element description</td>
-                <td class="example">element example</td>
+                <td class="element"> <a href="https://www.w3schools.com/tags/tag_hn.asp">&lt;h1&gt;-&lt;h6&gt; </a></td>
+                <td class="description"> These elements define headings from most important to least important.</td>
+                <td class="example">
+                    &lt;h1&gt;This is heading 1&lt;/h1&gt;
+                        <br>
+                    &lt;h6&gt;This is heading 6&lt;/h6&gt;
+                </td>
             </tr>
 
             <tr>
-                <td class="element"> <a href="#">element Name</a></td>
-                <td class="description"> element description</td>
-                <td class="example">element example</td>
+                <td class="element"> <a href="https://www.w3schools.com/tags/tag_p.asp">&lt;p&gt;</a></td>
+                <td class="description"> This element defines a paragraph, used for text</td>
+                <td class="example">
+                    &lt;p&gt;Some example paragraph text.&lt;/p&gt;
+                    <br>
+                    &lt;p&gt;each p tag will generate a new paragraph with spacing.&lt;/p&gt;
+
+                </td>
             </tr>
 
            
@@ -69,43 +112,60 @@
         <div class="tableContainer">
             <table id="cssTable">
                 <tr>
-                    <th colspan="3"><h1>CSS Selectors Reference</h1></th>
+                    <th class='title' colspan="3"><h1>CSS Properties Reference</h1></th>
                 </tr>
                 <tr>
-                    <th><h3>CSS Selector</h3></th>
+                    <th><h3>CSS Properties</h3></th>
                     <th><h3>Decription</h3></th>
                     <th><h3>Example</h3></th>
                 </tr>
 
 <!-- CSS Selector table data  -->
                 <tr>
-                    <td class="selector"> <a href="#">selector Name</a></td>
-                    <td class="description"> selector description</td>
-                    <td class="example">selector example</td>
+                    <td class="selector"> <a href="https://www.w3schools.com/cssref/pr_text_color.asp">color</a></td>
+                    <td class="description">The color property specifies the foreground color of text</td>
+                    <td class="example">
+                        body {color: #92a8d1;}
+                        <br>
+                        p {color: #FFFFFF;}
+
+                    </td>
                 </tr>
 
                 <tr>
-                    <td class="selector"> <a href="#">selector Name</a></td>
-                    <td class="description"> selector description</td>
-                    <td class="example">selector example</td>
+                    <td class="selector"> <a href="https://www.w3schools.com/cssref/pr_background-color.asp">background-color</a></td>
+                    <td class="description"> This property sets the background color of an element (the space occupied within it's margins)</td>
+                    <td class="example">
+                        body {background-color: #92a8d1;}
+                        <br>
+                        h1 {background-color: #92a8d1;}
+                    </td>
                 </tr>
 
                 <tr>
-                    <td class="selector"> <a href="#">selector Name</a></td>
-                    <td class="description"> selector description</td>
-                    <td class="example">selector example</td>
+                    <td class="selector"> <a href="https://www.w3schools.com/cssref/pr_font_font-family.asp">font-family</a></td>
+                    <td class="description"> This property sets the font to be used for an element or multiple elements</td>
+                    <td class="example">
+                        * {
+                            font-family: Arial, Helvetica, sans-serif;
+                          }
+                    </td>
                 </tr>
 
                 <tr>
-                    <td class="selector"> <a href="#">selector Name</a></td>
-                    <td class="description"> selector description</td>
-                    <td class="example">selector example</td>
+                    <td class="selector"> <a href="https://www.w3schools.com/cssref/pr_border.asp">border</a></td>
+                    <td class="description"> Sets the style (width, color, type) for a specific element.</td>
+                    <td class="example">
+                        header {border: 5px dotted black;}
+                    </td>
                 </tr>
 
                 <tr>
-                    <td class="selector"> <a href="#">selector Name</a></td>
-                    <td class="description"> selector description</td>
-                    <td class="example">selector example</td>
+                    <td class="selector"> <a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">text-align</a></td>
+                    <td class="description">aligns the text for HTML elements. Default valuse is left, this can be changed to right or center.</td>
+                    <td class="example">
+                        h1 { text-align: center;}
+                    </td>
                 </tr>
             </table>
             </div>

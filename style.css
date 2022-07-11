@@ -1,3 +1,10 @@
+
+header {
+    margin:100px auto;
+}
+h5{
+    text-align:center;
+}
 h1 {
     text-align:center;
 }
@@ -5,36 +12,69 @@ table{
     margin:10% auto;
     border:2px solid black;
 }
-
-#htmlTable tr {
-    background-color: aqua;
+#htmlTable th.title{
+    background-color: rgb(164, 195, 214, 0.5);
     border:1px solid black;
     
 }
+#htmlTable tr {
+    background-color: rgb(245, 243, 243, .66);
+    border:1px solid black;
+    
+}
+#htmlTable a{
+    color:rgb(25, 105, 155)
+}
 
-
+#cssTable th.title{
+    background-color: rgba(172, 164, 214, 0.5);
+    border:1px solid black;
+    
+}
 #cssTable tr {
-    background-color: pink;
+    background-color: rgba(245, 243, 243, 0.66);
+    border:1px solid black;
+}
+#cssTable a{
+    color:rgb(92, 25, 155)
 }
 
 th {
     border: 2px solid black;
 }
 
-td {
-    margin:0;
-    border: 2px solid black;
-    padding:20px 125px;
+td{
+    font-family: monospace;
+    
 }
 
 td.element {
     margin:0;
     border: 2px solid black;
     padding:20px 50px;
+    width:20px;
+    font-size:16px;
 }
 
 td.selector {
     margin:0;
     border: 2px solid black;
     padding:20px 50px;
+    width:20px;
+    font-size:16px;
 }
+
+td.description{
+    margin:0;
+    border: 2px solid black;
+    padding:20px 25px;
+    width:400px;
+}
+td.example {
+    margin:0;
+    border: 2px solid black;
+    padding:20px 10px;
+    width:350px;
+}
+
+
